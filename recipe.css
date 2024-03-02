@@ -195,3 +195,201 @@ body{
     bottom: 6px;
  }
 }
+@media screen and (width:375px) {
+    *{
+        margin: 0;padding: 0;
+        box-sizing: border-box;
+    }
+    /* .young-serif-regular {
+        font-family: "Young Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+      } */
+      /* // <uniquifier>: Use a unique and descriptive class name
+    // <weight>: Use a value from 100 to 900
+    
+    .outfit-<uniquifier> {
+      font-family: "Outfit", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+    } */
+    body{
+        background-color:  hsl(30, 54%, 90%);
+     }
+     .main-card{
+        width: 156.25px;
+        border: 2px solid white;
+        background-color: hsl(0, 0%, 100%);
+        margin-top: 13.02px;
+        margin-left: 44.33%;
+        border-radius: 5.20px
+     }
+     .image{
+        width: 550px;
+        /* border: 2px solid green; */
+        margin-left: 23px;
+        margin-top: 35px;
+        /* margin-bottom: 45px; */
+    
+     }
+     img{
+        width: 143.23px;
+        border-radius: 5.2px;
+     }
+     .d1{
+        /* border: 2px solid red; */
+        width: 143.23px;
+        margin-left: 5.99px;
+        margin-top: 7.81px;
+     }
+     .d1 h1{
+        font-family: "Young Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-bottom: 2.08px;
+        color: #2F2C2A;
+     }
+     .d1 p{
+        font-size: 3.385px;
+        font-family: "Outfit" ,sans-serif;
+        /* font-optical-sizing: auto; */
+        /* font-weight: 400; */
+        color: hsl(25.71,3.11%,44.12%);
+        /* text-align: justify; */
+     }
+     .d2{
+        width: 143.23px;
+        background-color: hsl(330, 100%, 98%);
+        /* background-color: red; */
+        border-radius: 5.2px;
+        margin-top: 6.51px;
+        margin-left: 5.99px;
+        padding: 0.781px;
+     }
+     .d2 p{
+        font-size: 4.17px;
+        font-family: "Outfit" ,sans-serif;
+        /* font-weight: 600; */
+        color: hsl(332, 51%, 32%);
+        margin: 3.125px;
+     }
+     .d2 li{
+        font-family: "Outfit" ,sans-serif;
+        font-size: 3.385px;
+        margin-left: 6.77px;
+        margin-top: 1.30px;
+        color: hsl(25.71,3.11%,44.12%);
+     }
+     .d2 span{
+        font-family: "Outfit" ,sans-serif;
+        font-size: 3.65px;
+        font-weight: bold;
+        color: #68635D;
+     }
+     .duration .last{
+        margin-bottom: 2.08px;
+     }
+     .d3{
+        width: 143.23px;
+        margin-top: 6.51px;
+        margin-left: 5.99px;
+        padding: 0.781px;
+        font-family: "Young Serif", serif;
+     }
+     .d3 h2{
+        margin-bottom: 3.125px;
+        color:  hsl(14, 45%, 36%);
+        font-weight: 400;
+     }
+     .d3 li{
+        margin-left:5.73px;
+        color: hsl(25.71,3.11%,44.12%);
+        font-family: "Outfit" ,sans-serif;
+        font-size: 3.385px;
+        margin-bottom: 1.30px;
+     }
+     .d3 .last{
+        margin-bottom: 4.69px;
+     }
+     .d2 li::marker{
+        color:  hsl(332, 51%, 32%);
+     }
+     .d3 li::marker{
+        color:hsl(14, 45%, 36%) ;
+     }
+     .d4{
+        width: 143.23px;
+        margin-top: 6.51px;
+        margin-left: 5.99px;
+        padding: 0.781px;
+        font-family: "Young Serif", serif;
+     }
+     .d4 h2{
+        margin-bottom: 3.125px;
+        color:  hsl(14, 45%, 36%);
+        font-weight: 400;
+     }
+     .d4 li{
+        margin-left:5.73px;
+        color: hsl(25.71,3.11%,44.12%);
+        font-family: "Outfit" ,sans-serif;
+        font-size: 3.645px;
+        margin-bottom: 2.08px;
+     }
+     .d4 li::marker{
+        color:hsl(14, 45%, 36%) ;
+        font-size: 3.645px;
+        font-weight: bold;
+     }
+     .d4 span{
+        font-family: "Outfit" ,sans-serif;
+        font-size: 3.645px;
+        font-weight: bold;
+        color: #68635D;
+     }
+     .d4 .last{
+        margin-bottom: 4.69px;
+     }
+     .d5{
+        width: 143.23px;
+        margin-top: 6.51px;
+        margin-left: 5.99px;
+        padding: 0.781px;
+        font-family: "Young Serif", serif;
+     }
+     .d5 h2{
+        margin-bottom: 3.125px;
+        color:  hsl(14, 45%, 36%);
+        font-weight: 400;
+     }
+     .d5 p{
+        font-family: "Outfit" ,sans-serif;
+        font-size: 3.59px;
+        color: hsl(25.71,3.11%,44.12%);
+     }
+     .d6{
+        /* border: 2px solid yellow; */
+        width: 143.23px;
+        margin-top: 6.51px;
+        margin-left: 5.99px;
+        margin-bottom: 3.90px;
+     }
+     .d6 .p1,.d6 .p3,.d6 .p5,.d6 .p7{
+        font-family: "Outfit" ,sans-serif;
+        font-size: 3.59px;
+        color: hsl(25.71,3.11%,44.12%);
+        position: relative;
+        bottom: -2.86px;
+     }
+     .d6 .p2,.d6 .p4,.d6 .p6,.d6 .p8{
+        font-family: "Outfit" ,sans-serif;
+        font-size: 3.90px;
+        font-weight: bold;
+        color: hsl(14, 45%, 36%);
+        position: relative;
+        left: 71.09px;
+        bottom: 1.56px;
+     }
+    }
+    
