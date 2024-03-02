@@ -1,0 +1,197 @@
+@media screen and (max-width:1440px) {
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+/* .young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  } */
+  /* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.outfit-<uniquifier> {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+body{
+    background-color:  hsl(30, 54%, 90%);
+ }
+ .main-card{
+    width: 600px;
+    border: 2px solid white;
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 50px;
+    margin-left: 26.33%;
+    border-radius: 20px
+ }
+ .image{
+    width: 550px;
+    /* border: 2px solid green; */
+    margin-left: 23px;
+    margin-top: 35px;
+    /* margin-bottom: 45px; */
+
+ }
+ img{
+    width: 550px;
+    border-radius: 20px;
+ }
+ .d1{
+    /* border: 2px solid red; */
+    width: 550px;
+    margin-left: 23px;
+    margin-top: 30px;
+ }
+ .d1 h1{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 8px;
+    color: #2F2C2A;
+ }
+ .d1 p{
+    font-size: 13px;
+    font-family: "Outfit" ,sans-serif;
+    /* font-optical-sizing: auto; */
+    /* font-weight: 400; */
+    color: hsl(25.71,3.11%,44.12%);
+    /* text-align: justify; */
+ }
+ .d2{
+    width: 550px;
+    background-color: hsl(330, 100%, 98%);
+    /* background-color: red; */
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-left: 23px;
+    padding: 3px;
+ }
+ .d2 p{
+    font-size: 16px;
+    font-family: "Outfit" ,sans-serif;
+    /* font-weight: 600; */
+    color: hsl(332, 51%, 32%);
+    margin: 12px;
+ }
+ .d2 li{
+    font-family: "Outfit" ,sans-serif;
+    font-size: 13px;
+    margin-left: 26px;
+    margin-top: 5px;
+    color: hsl(25.71,3.11%,44.12%);
+ }
+ .d2 span{
+    font-family: "Outfit" ,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #68635D;
+ }
+ .duration .last{
+    margin-bottom: 8px;
+ }
+ .d3{
+    width: 550px;
+    margin-top: 25px;
+    margin-left: 23px;
+    padding: 3px;
+    font-family: "Young Serif", serif;
+ }
+ .d3 h2{
+    margin-bottom: 12px;
+    color:  hsl(14, 45%, 36%);
+    font-weight: 400;
+ }
+ .d3 li{
+    margin-left:22px;
+    color: hsl(25.71,3.11%,44.12%);
+    font-family: "Outfit" ,sans-serif;
+    font-size: 13px;
+    margin-bottom: 5px;
+ }
+ .d3 .last{
+    margin-bottom: 18px;
+ }
+ .d2 li::marker{
+    color:  hsl(332, 51%, 32%);
+ }
+ .d3 li::marker{
+    color:hsl(14, 45%, 36%) ;
+ }
+ .d4{
+    width: 550px;
+    margin-top: 25px;
+    margin-left: 23px;
+    padding: 3px;
+    font-family: "Young Serif", serif;
+ }
+ .d4 h2{
+    margin-bottom: 12px;
+    color:  hsl(14, 45%, 36%);
+    font-weight: 400;
+ }
+ .d4 li{
+    margin-left:22px;
+    color: hsl(25.71,3.11%,44.12%);
+    font-family: "Outfit" ,sans-serif;
+    font-size: 14px;
+    margin-bottom: 8px;
+ }
+ .d4 li::marker{
+    color:hsl(14, 45%, 36%) ;
+    font-size: 14px;
+    font-weight: bold;
+ }
+ .d4 span{
+    font-family: "Outfit" ,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #68635D;
+ }
+ .d4 .last{
+    margin-bottom: 18px;
+ }
+ .d5{
+    width: 550px;
+    margin-top: 25px;
+    margin-left: 23px;
+    padding: 3px;
+    font-family: "Young Serif", serif;
+ }
+ .d5 h2{
+    margin-bottom: 12px;
+    color:  hsl(14, 45%, 36%);
+    font-weight: 400;
+ }
+ .d5 p{
+    font-family: "Outfit" ,sans-serif;
+    font-size: 13.8px;
+    color: hsl(25.71,3.11%,44.12%);
+ }
+ .d6{
+    /* border: 2px solid yellow; */
+    width: 550px;
+    margin-top: 25px;
+    margin-left: 23px;
+    margin-bottom: 15px;
+ }
+ .d6 .p1,.d6 .p3,.d6 .p5,.d6 .p7{
+    font-family: "Outfit" ,sans-serif;
+    font-size: 13.8px;
+    color: hsl(25.71,3.11%,44.12%);
+    position: relative;
+    bottom: -11px;
+ }
+ .d6 .p2,.d6 .p4,.d6 .p6,.d6 .p8{
+    font-family: "Outfit" ,sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+    position: relative;
+    left: 273px;
+    bottom: 6px;
+ }
+}
